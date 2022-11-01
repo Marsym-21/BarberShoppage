@@ -68,7 +68,7 @@ ul{
   background-color: rgba(0, 0, 0, 0);
   color: var(--header-text-color);
   border: 1px solid var(--border-button-color);
-  border-radius: 20px;
+  border-radius: 25px;
  
 }
 
@@ -128,11 +128,13 @@ margin-right: 43px;
     url(../images/Slider.jpg) ; 
 
     width: 1200px;
+    margin: 0 auto;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.head .container .btn{
+.head .container .btn:hover, .head .container .btn:focus{
+  background-color: var(--effects-color);
   cursor:url("../images/finger.png"), pointer;
 }
 
